@@ -36,6 +36,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-bottom: 74px;
+    
     
     
   }
@@ -60,7 +62,7 @@
     font-weight: 400;
     max-width: 852px;
     margin: 0 auto;
-    line-height: 25pt;
+    line-height: 20pt;
     
   }
   .bannerBtn {
@@ -77,4 +79,67 @@
     background-color: rgb(13, 19, 33);
     border: 1px solid rgb(13, 19, 33);
     border-radius: 5px;
+  }
+
+  /* Why Web Development Section Start */
+  .webDevelopmentJobDetails{
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: rgba(13, 19, 33, 0.02);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+  }
+  .jobQuestionTitle{
+    text-align: center;
+    padding-bottom: 3rem;
+    /* margin: 20px 0px; */
+  }
+
+  /* Web Content */
+  .website-Content{
+    margin: 0 auto;
+  }
+  .codingAndChangingWorld{
+    max-width: 946px;
+    /* background-color: red; */
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 2rem;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px; */
+    background-color: rgb(255, 255, 255);
+    
+  }
+  .codingAndChangingWorld-content{
+    width: 50%;
+  }
+  .codingAndChangingWorld-title{
+    color: rgba(13, 19, 33, 0.7);
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 700;
+    /* padding-bottom: 1rem; */
+    line-height: 30pt;
+  }
+  .codingAndChangingWorld-description{
+    padding-bottom: 2rem;
+    line-height: 20pt;
+  }
+  .codingAndChangingWorld-btn{
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(13, 19, 33); */
+    border: 1px solid rgb(13, 19, 33);
+    color: rgb(13, 19, 33);
+    /* border-radius: 5px; */
+  }
+  .modernWebSystem{
+    flex-direction: row-reverse;
   }
