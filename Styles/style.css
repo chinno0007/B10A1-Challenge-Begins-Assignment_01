@@ -118,7 +118,7 @@
     width: 50%;
   }
   .codingAndChangingWorld-title{
-    color: rgba(13, 19, 33, 0.7);
+    /* color: rgba(13, 19, 33, 0.7); */
     border-radius: 5px;
     font-size: 24px;
     font-weight: 700;
@@ -146,6 +146,13 @@
 
 
   /* My Inspiration Start */
+  .inspiration{
+    margin: 0 auto;
+    max-width: 1140px;
+    height: 462px;
+    margin-bottom: 111px;
+    margin-top: 100px;
+  }
   .inspiration-container{
     text-align: center;
     margin-bottom: 3rem;
@@ -163,3 +170,113 @@
     align-items: center;
     border-radius: 10px;
   }
+
+  /* My Current Target */
+  .card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .target-card{
+    max-width: 28%;
+    max-height: 299px;
+    padding: 20px;
+  }
+
+  .target-text{
+    color: rgb(13, 19, 33);
+  }
+  .card-1{
+    border-radius: 16px;
+    background-color:rgba(255, 76, 30, 0.05);
+  }
+  .card-2{
+    border-radius: 16px;
+    background-color: rgba(0, 76, 232, 0.05);
+  }
+  .card-3{
+    border-radius: 16px;
+    background-color: rgba(255, 223, 0, 0.05);
+  }
+  .learning-more{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  /* I need Support Start */
+
+  .supportNeeded{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto ;
+    max-width: 1140px;
+    height: 313px;
+    background-image: url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+    color: white;
+  }
+  .supportNeeded p{
+    color: rgb(255, 255, 255);
+  }
+  .input-field{
+    margin-top: 1.5rem;
+  }
+    .input-field input[type="text"]{
+    
+
+        /* display: inline-block; */
+        width: 500px;
+        /* height: 57px; */
+        padding: 15px 15px;
+        font-size: 16px;
+        /* text-align: center; */
+        border: 1px solid rgb(13, 19, 33);
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+    .input-field input[type="submit"]{
+    
+
+        /* display: inline-block; */
+        width: 120px;
+        /* height: 57px; */
+        padding: 15px 15px;
+        font-size: 16px;
+        font-weight: 600;
+        /* text-align: center; */
+        border: 1px solid rgb(13, 19, 33);
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+
+    /* footer */
+    footer{
+        max-height: 108px;
+        max-width: 1440px;
+        margin: 0 auto;
+        border-radius: 16px;
+        /* padding: 20px; */
+        /* text-align: center; */
+        background-color: rgba(13, 19, 33, 0.03);
+    }
+    .footer-info{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1140px;
+        /* height: 36px; */
+        margin-top: 5rem;
+
+    }
+    .footer-link a{
+        text-decoration: none;
+    }
